@@ -10,7 +10,7 @@ jobs:
       - name: create file
         run: |
          mkdir temp
-         echo "alpha" > temp/alpha.html
+         echo "moni" > temp/alpha.html
 
       - name: upload artifact
         uses: actions/upload-artifact@v4
